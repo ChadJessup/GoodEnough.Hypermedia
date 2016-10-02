@@ -1,0 +1,25 @@
+﻿{
+  "authors": [
+    "Chad Jessup"
+  ],
+  "buildOptions": {
+    "emitEntryPoint": false,
+    "preserveCompilationContext": true,
+    "debugType": "portable"
+  },
+  "version": "0.0.1-*",
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.0.1"
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}
